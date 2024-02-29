@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNg.Invocation5"/>
+      <class name="TestNg.DependsOn4"/>
+      <class name="TestNg.Priority"/>
+      <class name="TestNg.DataProviderTest6"/>
+      <class name="TestNg.Disable3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
